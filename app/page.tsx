@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="text-green-600 flex flex-col justify-start items-center">
       <h1 className="text-4xl font-bold pt-24">Starfinder 2 Attribute Calculator</h1>
-      <div className="flex min-h-screen flex-row items-center justify-evenly px-24 pb-24">
+      <div className="md:flex min-h-screen md:flex-row md:items-center md:justify-evenly px-24 pb-24">
       <div className="flex flex-col">
         <label className="flex flex-col items-center text-xl px-5">Ancestry Boosts (Select However Many Boosts are Given by Ancestry)</label>
         <AttributeList flaws={false} setStrength={setStrength} setDexterity={setDexterity} setConstitution={setConstitution} setIntelligence={setIntelligence} setWisdom={setWisdom} setCharisma={setCharisma} strength={strength} dexterity={dexterity} constitution={constitution} intelligence={intelligence} wisdom={wisdom} charisma={charisma} />

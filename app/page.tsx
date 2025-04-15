@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24 bg-gradient-to-b from-black to-gray-900 font-oxanium">
       <h1 className="text-4xl font-bold pt-24 flex items-center justify-center">Starfinder 2 Attribute Calculator</h1>
-        <Carousel className="h-96" slide={false} indicators={true} leftControl={true} rightControl={true}>
+        <Carousel className="h-96 w-96 px-20" slide={false} indicators={true} leftControl={false} rightControl={false}>
         <div className="flex flex-col items-center">
         <label className="flex flex-row items-center text-xl px-5 text-green-500">Instructions</label>
         <p>This calculator will walk you through the steps of calculating your attributes, and do the math for you.</p> 

@@ -1,5 +1,4 @@
 'use client'
-import { use, useState } from "react";
 
 const AttributeList = (props : any) => {
 

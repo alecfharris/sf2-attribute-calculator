@@ -1,7 +1,5 @@
 'use client'
-
-import AttributeList from "./components/attribute-list";
-import { use, useState } from "react";
+import { useState } from "react";
 import { Carousel } from "flowbite-react";
 import Instructions from "./components/instructions";
 import BoostsAndFlaws from "./components/boosts-and-flaws";

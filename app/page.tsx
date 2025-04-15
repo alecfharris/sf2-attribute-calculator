@@ -25,7 +25,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center">
         <label className="flex flex-row items-center text-xl px-5 text-green-500">Instructions</label>
-        <p>Once you&apos;ve determined what to select at each step, simply check the relevant boxes, and move on to the next slide by swiping or clicking the indicator at the bottom.</p>
+        <p>Once you&apos;ve determined what to select at each step, simply check the relevant boxes, and move on to the next slide by swiping or clicking the indicators.</p>
         </div>
         <div className="flex flex-col items-center justify-center">
         <label className="flex flex-row items-center text-xl px-5 text-green-500">Ancestry Boosts (Select However Many Boosts are Given by Ancestry)</label>

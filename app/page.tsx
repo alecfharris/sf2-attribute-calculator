@@ -18,8 +18,8 @@ export default function Home() {
         <div className="flex flex-col items-center ">
         <label className="flex flex-row items-center text-xl px-5 text-green-500">Instructions</label>
         <p>This calculator will walk you through the steps of calculating your attributes, and do the math for you.</p> 
-        <p>You'll still need to consult the official rules to determine which boosts and possibly flaws you'll get at each step.</p> 
-        <p>Once you've determined what to select at each step, simply check the relevant boxes, and move on to the next slide by either swiping or using the arrow keys on your keyboard.</p>
+        <p>You&apos;ll still need to consult the official rules to determine which boosts and possibly flaws you&apos;ll get at each step.</p> 
+        <p>Once you&apos;ve determined what to select at each step, simply check the relevant boxes, and move on to the next slide by either swiping or using the arrow keys on your keyboard.</p>
         </div>
         <div className="flex flex-col items-center justify-center">
         <label className="flex flex-row items-center text-xl px-5 text-green-500">Ancestry Boosts (Select However Many Boosts are Given by Ancestry)</label>

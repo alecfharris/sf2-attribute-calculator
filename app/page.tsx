@@ -14,12 +14,18 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24 bg-gradient-to-b from-black to-gray-900 font-oxanium">
       <h1 className="text-4xl font-bold pt-24 flex items-center justify-center">Starfinder 2 Attribute Calculator</h1>
-        <Carousel className="h-96" slide={false} indicators={false} leftControl={true} rightControl={true}>
-        <div className="flex flex-col items-center ">
+        <Carousel className="h-96" slide={false} indicators={true} leftControl={true} rightControl={true}>
+        <div className="flex flex-col items-center">
         <label className="flex flex-row items-center text-xl px-5 text-green-500">Instructions</label>
         <p>This calculator will walk you through the steps of calculating your attributes, and do the math for you.</p> 
+        </div>
+        <div className="flex flex-col items-center">
+        <label className="flex flex-row items-center text-xl px-5 text-green-500">Instructions</label>
         <p>You&apos;ll still need to consult the official rules to determine which boosts and possibly flaws you&apos;ll get at each step.</p> 
-        <p>Once you&apos;ve determined what to select at each step, simply check the relevant boxes, and move on to the next slide by either swiping or using the arrow keys on your keyboard.</p>
+        </div>
+        <div className="flex flex-col items-center">
+        <label className="flex flex-row items-center text-xl px-5 text-green-500">Instructions</label>
+        <p>Once you&apos;ve determined what to select at each step, simply check the relevant boxes, and move on to the next slide by swiping or clicking the indicator at the bottom.</p>
         </div>
         <div className="flex flex-col items-center justify-center">
         <label className="flex flex-row items-center text-xl px-5 text-green-500">Ancestry Boosts (Select However Many Boosts are Given by Ancestry)</label>
